@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1449893834041976096}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +111,7 @@ MonoBehaviour:
   GlobalObjectIdHash: 460626997
   InScenePlacedSourceGlobalObjectIdHash: 3540261573
   DeferredDespawnTick: 0
-  Ownership: 2
+  Ownership: 1
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -352,8 +352,8 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 18b6ad98-2c7b-49b3-a533-2c300129e204
     m_ActionName: 'Player/Break[/Keyboard/space]'
-  m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: Keyboard&Mouse
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
@@ -381,7 +381,7 @@ MonoBehaviour:
   RotationMaxInterpolationTime: 0.1
   ScaleLerpSmoothing: 1
   ScaleMaxInterpolationTime: 0.1
-  AuthorityMode: 0
+  AuthorityMode: 1
   TickSyncChildren: 0
   UseUnreliableDeltas: 0
   SyncPositionX: 1
