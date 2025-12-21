@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7920426313573353366}
   - component: {fileID: 6263952228291169806}
   - component: {fileID: 1449893834041976096}
+  - component: {fileID: 3411611261997819576}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -352,6 +353,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 18b6ad98-2c7b-49b3-a533-2c300129e204
     m_ActionName: 'Player/Break[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 0db5c7cf8f4c4574686ab0c3beae3e3f, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c74f02bd-419a-4513-8461-9912bd1e1c3c
+    m_ActionName: 'Player/ESC[/Keyboard/escape]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -403,3 +420,20 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!114 &3411611261997819576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5223207994786554912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26f2ce926b6f3f469c53eb24b0b714c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerRaceCounter
+  ShowTopMostFoldoutHeaderGroup: 1
+  lapTextObjectName: LapCounterText
+  finishLineTag: FinishLine
+  activeCheckpointColor: {r: 0, g: 1, b: 0, a: 1}
+  inactiveCheckpointColor: {r: 1, g: 0, b: 0, a: 1}

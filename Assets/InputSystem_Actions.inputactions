@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "InputSystem_Actions",
     "maps": [
         {
@@ -108,6 +109,15 @@
                     "name": "Break",
                     "type": "Button",
                     "id": "18b6ad98-2c7b-49b3-a533-2c300129e204",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ESC",
+                    "type": "Button",
+                    "id": "c74f02bd-419a-4513-8461-9912bd1e1c3c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -574,6 +584,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Break",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ce438d3-b364-4036-9cc8-9281ac57ebad",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ESC",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
